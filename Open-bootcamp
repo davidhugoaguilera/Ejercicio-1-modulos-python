@@ -1,0 +1,23 @@
+operaciones.py
+
+def suma(a, b):
+    return a + b
+
+def resta(a, b):
+    return a - b
+
+def multiplicacion(a, b):
+    return a * b
+
+def division(a, b):
+    return a / b
+
+
+import operaciones as op
+
+def main():
+    res = op.suma(2, 2)
+    resResta = op.resta(6, 2)
+    resMultiplicacion = op.multiplicacion(5, 4)
+    resDivision = op.division(8, 2)
+    print("El resultado es", res, resResta, resMultiplicacion, resDivision)
